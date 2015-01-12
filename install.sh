@@ -11,6 +11,7 @@ cd ../../..
 
 rm -rf ${LIBM}
 tar -zxf ${LIBM_ARCHIVE}
+cp -a complex.h "${PREFIX}/include/"
 cd ${LIBM}
 make CFLAGS="$CFLAGS $(PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig pkg-config libminios-xen --cflags)" libopenlibm.a
 ${SUDO} make install prefix=${PREFIX}

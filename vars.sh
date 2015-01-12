@@ -10,6 +10,6 @@ MINIOS=minios-v0.5
 MINIOS_ARCHIVE=${MINIOS}.tar.gz
 MINIOS_URL=https://github.com/talex5/xen/archive/${MINIOS_ARCHIVE}
 
-LIBM=openlibm-0.4.1-tal1
-LIBM_ARCHIVE=v0.4.1-tal1.tar.gz
+LIBM=openlibm-dev
+LIBM_ARCHIVE=dev.tar.gz
 LIBM_URL=https://github.com/talex5/openlibm/archive/${LIBM_ARCHIVE}
